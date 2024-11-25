@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Kotta+One&family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import url('https://unpkg.com/css.gg/icons/all.css');
+
+.nextui-input-helper-text {
+    font-family: 'Kotta One', serif;
+}
+
+.gg-mail,
+.gg-mail::after {
+    display: block;
+    box-sizing: border-box;
+    height: 12px;
+    border: 2px solid
+}
+.gg-mail {
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    width: 16px;
+    border-radius: 2px
+}
+.gg-mail::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 12px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
+
+.gg-key, .gg-mail, .gg-user {
+    color: #d6b13a;
+}
+.gg-key {
+    margin-left: 0px;
+    margin-right: 0.648em;
+}
+
+label > .nextui-input-label--left {
+    margin-left: -10px;
+}
